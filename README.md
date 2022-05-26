@@ -1,5 +1,10 @@
 # hello
 
+## node后端地址
+```
+https://github.com/xiaoluouse/community_api
+```
+
 ## Project setup
 ```
 npm install
@@ -22,3 +27,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
