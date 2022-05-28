@@ -33,7 +33,7 @@ Vue.component(Radio.name, Radio);
 Vue.component(Empty.name, Empty);
 Vue.component(Button.name, Button);
 
-//将Message弹出框方法放到vm放到Vue的原型上,以后可以直接在this上使用
+//将Message弹出框方法放到Vue的原型上,以后可以直接在this上使用
 Vue.prototype.$message = Message;
 
 //引入路由
