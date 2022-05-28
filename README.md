@@ -2,26 +2,15 @@
 ## node后端地址
 [https://github.com/xiaoluouse/community_api](https://github.com/xiaoluouse/community_api)
 
-## Project setup
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-s
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
