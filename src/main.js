@@ -44,8 +44,6 @@ import store from "@/store/index.js";
 import '@/mock/showInfo.js';
 import '@/mock/showInfoImage.js';
 import '@/mock/carousel.js';
-import '@/mock/userAvatar.js';
-import '@/mock/userInfo.js';
 Vue.config.productionTip = false;
 
 new Vue({
