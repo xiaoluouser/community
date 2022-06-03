@@ -1,11 +1,9 @@
 import {
-    baseURL
-} from "@/api/baseUrlConfig.js";
-import QS from 'qs';
-const {
     baseurl1,
     baseurl2
-} = baseURL;
+} from "@/api/baseUrlConfig.js";
+import QS from 'qs';
+
 //当前这个模块对api进行统一管理
 import requests from "./request.js";
 

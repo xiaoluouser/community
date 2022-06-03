@@ -31,7 +31,7 @@
           :autosize="{ minRows: 3, maxRows: 3 }"
           v-model="userinfo.sign"
         >
-        </el-input>
+        </el-input> 
       </div>
     </div>
     <div class="save">

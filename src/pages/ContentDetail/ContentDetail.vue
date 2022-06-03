@@ -150,7 +150,7 @@ export default {
       if (data.status === 0) {
         this.comment = data.data;
       }
-      this.sort = "最新";
+      //this.sort = "最新";
       this.textarea = "";
     },
     remove(id) {

@@ -10,7 +10,7 @@
           </a>
         </div>
         <a href="javascript:;">{{ item.username }}</a>
-        <span>{{ item.time }} • 官方</span>
+        <span>{{ item.time }} • 个人</span>
       </div>
       <!-- 发布的内容 -->
       <div class="announcement-content">
@@ -43,7 +43,9 @@
     </li>
     <li class="loading">
       <a href="javascript:;" v-if="show" @click="loading">点击加载更多内容</a>
-      <a href="javascript:;" v-if="!show">正在加载中<i class="el-icon-loading"></i></a>
+      <a href="javascript:;" v-if="!show"
+        >正在加载中<i class="el-icon-loading"></i
+      ></a>
     </li>
   </ul>
 </template>
@@ -56,8 +58,8 @@ export default {
   data() {
     return {
       announcement: [],
-      num:0,
-      show:true,
+      num: 0,
+      show: true,
     };
   },
   methods: {
@@ -94,11 +96,11 @@ export default {
       1
     ),
     async loading() {
-      this.show=false;
-      this.num+=5;
+      this.show = false;
+      this.num += 5;
       let data = (await getArticle(this.num)).data;
       if (data.status === 0) {
-        this.show=true;
+        this.show = true;
         data.article.forEach((item) => {
           this.announcement.push(item);
         });
