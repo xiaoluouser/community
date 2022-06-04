@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-/public/edit/zh_CN.js
+/public/edit/
 /public/reset.css
 
 # local env files
