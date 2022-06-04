@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-/public/edit/skins
+/public/edit
+/public/reset.css
 
 # local env files
 .env.local
