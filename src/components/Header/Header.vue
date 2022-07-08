@@ -67,7 +67,7 @@
               </router-link>
             </li>
             <li>
-              <a @click="open"><i class="el-icon-switch-button"></i>退出登录</a>
+              <a @click="signOut"><i class="el-icon-switch-button"></i>退出登录</a>
             </li>
           </ul>
           <div class="triangle" v-if="this.userinfo.username"></div>
@@ -160,7 +160,7 @@ export default {
         });
       }
     },
-    async open() {
+    async signOut() {
       await MessageBox.confirm("确定是否退出登录", "提示", {
         confirmButtonText: "确定",
         cancelButtonText: "取消",
